@@ -12,3 +12,6 @@
 ## Funcionamiento:
 1. Ejecutar la aplicacion
 2. La aplicacion realizara la lectura y la suma de los ingresos
+
+## Autor
+Juan Fernando Diaz Diaz
