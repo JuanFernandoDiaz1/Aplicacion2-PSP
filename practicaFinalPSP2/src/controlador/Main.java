@@ -6,13 +6,15 @@ public class Main {
 		// TODO Auto-generated method stub
 		Gestor gestor = new Gestor();
 		
-		System.out.println("Parte 1");
+		System.out.println("Leyendo de manera secuencial todos los registros...");
+		System.out.println("");
 		gestor.leerSecuencial();
 		System.out.println();
 		System.out.println("*********************");
 		
 		System.out.println("");
-		System.out.println("Parte 2");
+		System.out.println("Leyendo con cinco hilos de ejecución concurrentes...");
+		System.out.println("");
 		gestor.leerConcurrente();		
 	}
 }

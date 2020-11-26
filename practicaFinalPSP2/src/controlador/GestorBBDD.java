@@ -19,10 +19,10 @@ public class GestorBBDD {
 					"DAM2020_PSP");
 			Statement consulta = conexion.createStatement();
 			//sumamos los empleados desde un rango inicial y un rango final para que cada hilo haga x registros
-			ResultSet registro = consulta.executeQuery("select ingresos from empleados where ID >= " + rangoInicial +" and ID < " + rangoFinal);
+			ResultSet registro = consulta.executeQuery("select INGRESOS from EMPLEADOS where ID >= " + rangoInicial +" and ID < " + rangoFinal);
 			while(registro.next()) {
 				//sumamos los ingresos mientras haya registros
-				suma+=registro.getInt("ingresos");
+				suma+=registro.getInt("INGRESOS");
 			}
 			conexion.close();
 		} catch (SQLException e) {
@@ -40,7 +40,7 @@ public class GestorBBDD {
 			Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost/bbdd_psp_1", "DAM2020_PSP",
 					"DAM2020_PSP");
 			Statement consulta = conexion.createStatement();
-			ResultSet registro = consulta.executeQuery("select ingresos from empleados");
+			ResultSet registro = consulta.executeQuery("select INGRESOS from EMPLEADOS");
 			while(registro.next()) {
 				//mientras haya registros sumamos 1 al contador
 				cont++;

@@ -23,7 +23,7 @@ public class Gestor {
 		//Tiempo en el que termina el metodo
 		long tiempoFinal = System.currentTimeMillis();
 		//Mostramos el tiempo tardado
-		System.out.println("Tiempo que tardo: " + (tiempoFinal - tiempoInicio) + " milisegundos");
+		System.out.println("Tiempo empleado en la lectura y suma de los ingresos: " + (tiempoFinal - tiempoInicio) + " milisegundos");
 	}
 	
 	//---------------------------------------------------------------
@@ -33,7 +33,7 @@ public class Gestor {
 		sumarRegistros();
 		
 		long tiempoFinal = System.currentTimeMillis();
-		System.out.println("Tiempo que tardo: " + (tiempoFinal - tiempoInicio) + " milisegundos");
+		System.out.println("Tiempo empleado en la lectura y suma de los ingresos: " + (tiempoFinal - tiempoInicio) + " milisegundos");
 	}
 	
 	public void sumarRegistros() {
