@@ -11,8 +11,9 @@ Aplicacion que lee de manera concurrente y secuencial los registros de la BBDD y
 - INGRESOS: Integer
 
 ## Funcionamiento:
-1. Ejecutar la aplicacion
-2. La aplicacion realizara la lectura y la suma de los ingresos
+1. Ejecutar el jar, usar el comando en el cmd (estando en la ruta donde se encuentra el .jar) java -jar practicaFinalPSP-Aplicacion2.jar
+2. Ejecutar la aplicacion
+3. La aplicacion realizara la lectura y la suma de los ingresos
 
 ## Autor:
 Juan Fernando Diaz Diaz
